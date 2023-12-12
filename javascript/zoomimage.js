@@ -8,7 +8,6 @@ onUiLoaded(function () {
   }
   let modalControls = imageContainer.getElementsByClassName("modalControls")[0];
   if (modalControls) {
-    modalControls.style.position = "relative";
     modalControls.style.zIndex = 1;
   }
   let img = imageContainer.querySelector("img");
